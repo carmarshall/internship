@@ -1,9 +1,9 @@
 During my 2016 Summer internship, I had the opportunity to work with HTML/CSS and the .NET Framework ASP when my company began hosting a local Medical Practice's multi-page website.This repo contains a few snippets of the code I worked with, reformatted, and wrote for the client.
 My tasks included:
-                    communicated with the client 
-                    created my own JIRA tasks after client meetings
-                    reorganized of the information and layout of the pages
-                    eliminated redundancy
-                    made content edits
-                    used SourceTree and Git to record and communicate the changes I made with my team
-                    used FileZilla to locally host and then transfer the files to the appropriate server  
+                    Communicating with the client 
+                    Creating my own JIRA tasks after client meetings
+                    Reorganization of the information and layout of the pages
+                    Eliminated redundancy
+                    Made content edits
+                    Used SourceTree and Git to record and communicate the changes I made with my team
+                    Used FileZilla to locally host and then transfer the files to the appropriate server  

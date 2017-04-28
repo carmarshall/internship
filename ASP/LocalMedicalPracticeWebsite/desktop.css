@@ -1,0 +1,472 @@
+
+/*------------------------------------------------------------------------
+                    BRAIN ORTHOPEDIC SPINE SPECIALISTS
+                      http://www.brainsandbones.com
+              designed and created by http://www.cimbrian.com
+--------------------------------------------------------------------------*/
+
+body { background: url(Files/images/header-repeat.png) repeat-x; margin:0; padding:0; }
+
+a, a:link, a:visited { color:#C00; text-decoration:none; }
+
+a:hover { text-decoration:underline; color:#06C; }
+
+a img, img { border:none; }
+
+a:active { outline:none; }
+
+a:focus { -moz-outline-style:none; }
+
+div.clear { clear: both; }
+
+.video-container,
+.welcome-small-mobile,
+.toggle-nav { display: none; }
+
+/*
+.myClass {
+	display:block!important;
+	z-index: 100000!important;
+	zoom: 1;
+}
+*/
+
+/*---------------------------------------------------------------------
+                             HEADER
+-----------------------------------------------------------------------*/
+
+#header { position:relative; width:960px; height:105px/* 175px */; margin:0 auto; }
+
+/*#header a.logo { position:absolute; top:15px; left:0px; display:block; width:370px; height:90px; text-indent:-2500px; background:url(Files/images/header-logo.png) no-repeat; }*/
+
+/* #header a.logo { position:absolute; top:27px; left:20px; display:block; width:200px; height:136px; text-indent:-2500px; background:url(Files/images/header-logo.png) no-repeat; }*/
+
+#header a.logo { position:absolute; top:27px; left:18px; display:block; width:380px; height:67px; text-indent:-2500px; background:url(Files/images/header-logo.png) no-repeat; }
+
+#header a.appointmentPage { position: absolute; top:5px; right:20px; display: block; width: 205px; height: 50px; background:url(Files/images/header-appointment.png) no-repeat; text-indent:-2000px; }
+
+#header div.headerLinks { position: absolute; top:12px; right:40px; display: block; width: 236px; height: 50px; font:bold 13px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#cecece; padding:12px; text-align:right; }
+
+#header div.headerLinks a { font:bold 13px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#a8932f; }
+
+#header div.headerLinks { }
+
+#header .event { position:absolute; top:4px; left:500px; }
+
+/*---------------------------------------------------------------------
+                                NAV
+-----------------------------------------------------------------------*/
+
+#mainNav { position:relative; width:960px; height:40px; margin: 0 auto; }
+
+#mainNav ul { position: relative; }
+
+#mainNav ul ul { display:none; width:200px; position: absolute; top: 100%; left: 0; z-index:10000; background-color:#00609A; border-left:1px solid #426ea2; border-right:1px solid #426ea2 }
+
+#mainNav ul li:hover ul { display: block; z-index:10000; /* display the dropdown */ }
+
+#mainNav ul, #mainNav ul ul { margin:0; padding:0; list-style:none; font:normal 14px/18px "Trebuchet MS"; }
+
+#mainNav ul a { display:block; text-decoration:none; color:#fff; padding:11px 24px 0 30px; height:29px; }
+
+#mainNav ul li a:hover { color:#b29a2a; }
+
+#mainNav ul li { position:relative; float:left; }
+
+#mainNav ul ul li { width:100%; float:none; border-bottom:1px solid #426ea2; }
+
+#mainNav .newPatientPage { padding-right:0!important; }
+
+/* ACTIVE PAGES */
+
+body#choosingPage .choosingPage { color:#fef4b3; color:#8fd5ff; }
+
+body#homePage .homePage { color:#8fd5ff; }
+
+body#proceduresPage .proceduresPage { color:#8fd5ff; }
+
+body#facilitiesPage .facilitiesPage { color:#b29a2a; color:#8fd5ff; }
+
+body#staffPage .staffPage { color:#8fd5ff; }
+
+body#newPatientPage .newPatientPage { color:#8fd5ff; }
+
+body#testimonialsPage .testimonialsPage { color:#8fd5ff; }
+
+body#newsPage .newsPage { color:#8fd5ff; }
+
+/*----------------------------------------------------------------------
+                         GLOBAL CONTENT
+-----------------------------------------------------------------------*/
+
+#contentWrapper { background:url(Files/images/background.jpg) no-repeat center top; margin-top:1px; min-height:525px; }
+
+#content { position:relative; width: 890px; margin: 0 auto; padding:30px 0 60px 0; font:normal 13px/20px verdana; color:#333; }
+
+#content p { padding:0; margin:0 0 10px 0; }
+
+#content p .larger { font: 16px/20px Verdana; }
+
+#content p strong { }
+
+#content h1 { font: normal 22px/28px Verdana; color:#14417f; margin:0 0 20px 0; padding:0; }
+
+#content h1 .larger { font: 27px/30px Verdana; }
+
+#content h1 em { font:normal 19px/35px verdana; color:#666; }
+
+#content h2 { color: #a38a14; font: normal 19px/28px Verdana; margin: 10px 0 20px 0; }
+
+#content h2 .larger { font: 24px/30px Verdana; }
+
+#content h2.noColor { font:normal 17px/26px verdana; color:#666; margin:10px 0 15px 0; }
+
+#content h3 { font:bold 16px/22px 'trebuchet ms'; color:#333; margin:0 0 6px 0; padding:0; }
+
+#content h4 { color: #a38a14; font: normal 14px/28px Verdana; margin:0; padding:0; }
+
+.greyLine { height: 1px; width: 100%; background: #d9d9d9; margin: 30px 0; }
+
+#content ul { margin:0 0 15px 0; }
+
+#content li { margin:0 0 2px 0; padding:0; }
+
+#content dt a { font-size: 16px; color: #a38a14; }
+
+#content dd { margin: 0 0 6px 0; }
+
+#content dd.date { font-style: italic; color: #666; }
+
+#content dd a { display: block; }
+
+/* -- */
+
+.column1 { width: 430px; float: left; }
+
+.column1 h1 { font: normal 25px/30px Verdana; color:#14417f; margin:15px 0 20px 0; padding:0; }
+
+.column2 { margin-left: 460px; }
+
+.column2 .column1 { width: 285px; float: left; }
+
+/*.column2 .column2 { margin-left:317px; }
+
+.column2 .column2 { float:left; width:285px; margin:0!important; }*/
+
+.gutter { width:30px; height:10px; float:left; }
+
+/*---------------------------------------------------------------------
+                             INDIVIDUAL PAGES
+-----------------------------------------------------------------------*/
+
+/* HOMEPAGE */
+
+body#homePage #footerWrapper { position:relative; top:35px; }
+
+#welcomeWrapper { position: relative; margin: 0 auto; background:url(Files/images/welcome-background.jpg) top center; margin-top: 1px; height: 310px; }
+
+#welcomeWrapper #welcome { display:block; position: relative; margin: 0 auto; width: 960px; height: 310px; overflow:visible; }
+
+#welcome-intro { display:block; padding:26px 0 0 15px; width: 450px; }
+
+.welcome-large { display:block; margin:0 0 0 0; font: normal 31px/40px Georgia; color: #005383; }
+
+.welcome-small { display:block; margin:3px 0 0 0; font: normal 23px/32px Georgia; color: #005383; }
+
+.welcome-heal { display:block; margin:10px 0 0 0; font: normal 19px "Trebuchet MS"; color: #a38a14; }
+
+.welcome-text { display:block; margin:18px 0 0 0; font: normal 16px/22px Georgia; color:#555; width: 428px; }
+
+.welcome-text span { font: normal 17px "Trebuchet MS"; color:#444; text-transform: uppercase; }
+
+.welcome-text p { display:block; position:absolute; top:75px; left:500px; width:400px; z-index:1; }
+
+/*--*/
+
+#videoWrapper { position: absolute; top:22px; left:463px; background:url(Files/images/video-shadow.png) no-repeat; width:492px; height:287px; padding-left:16px; width:476px; z-index:100; }
+
+#videoPlayer:focus { -moz-outline-style:none; }
+
+#videoPlayer:active { outline:none; }
+
+/*--*/
+
+#categoriesWrapper { position: relative; margin: 0 auto; }
+
+#categoriesWrapper ul { width: 960px; margin: 0 auto; position: relative; left: -10px; list-style: none; }
+
+#categoriesWrapper ul li { width: 155px; float: left; position: relative; display: block; margin: 0px 17px; padding-top: 25px; }
+
+#categoriesWrapper ul li a .title { color: #0c4ba3; font: normal 19px/23px "Trebuchet MS"; display:block; margin:15px 0 5px 0; }
+
+#categoriesWrapper ul li a p { color: #666; font: normal 14px/19px 'trebuchet ms'; display:block; margin:0; padding:0; }
+
+#categoriesWrapper ul li .image { width: 155px; height: 108px; }
+
+#categoriesWrapper ul li a:hover img { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+
+#categoriesWrapper ul li a:hover { text-decoration:none!important; }
+
+#categoriesWrapper ul li a:hover .title { color: #a38a14; text-decoration:none!important; }
+
+#categoriesWrapper ul li a:hover p { color: #444; text-decoration:none!important; }
+
+/* STAFF */
+
+body#staffPage .column1 { width: 250px; float: left; }
+
+body#staffPage .column2 { margin-left: 285px; }
+
+body#staffPage .column2 .column1 { width: 287px; float: left; }
+
+body#staffPage .column2 .column2 { margin-left:317px; }
+
+#staffHeadshots ul { margin:0 0 25px 0; }
+
+#staffHeadshots { margin:28px 0 0 0 !important; padding:0; list-style:none; font: normal 12px/17px verdana; }
+
+#staffHeadshots li { width: 282px; float: left; position: relative; display: block; margin:0 20px 0 0; padding: 0 0 30px 0; }
+
+#staffHeadshots li img { display:block; margin-bottom:7px; }
+
+#staffHeadshots li a, #staffHeadshots li a:link, #staffHeadshots li a:visited { color: #333; }
+
+#staffHeadshots li a:hover img { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+
+#staffHeadshots li a:hover { color: #a38a14; text-decoration:none; }
+
+.staffers p { margin-bottom:5px!important; }
+
+.staffers .therapists { font-size:12px; margin-top:10px!important; font-weight:bold; }
+
+.staffers a { display:block; padding:3px 0; }
+
+.staffers a { color:#333; }
+
+.staffers a:hover { color:#900; text-decoration:none; cursor:pointer; }
+
+.tooltip { display:none; background:white; position:absolute; z-index:1000; width:380px; padding:20px 0 15px 20px; border:solid 1px #bebebe; margin:-160px 0 0 225px; }
+
+.ptas .tooltip { display:none; background:white; position:absolute; z-index:1000; width:130px; padding:20px 0 15px 20px; border:solid 1px #bebebe; margin:-160px 0 0 225px; }
+
+.justHeadshot { width:130px!important; }
+
+.tooltip .arrow { position:absolute; margin:105px 0 0 -39px; width:19px; height:37px; display:block; background:url(/Files/images/arrow.png) no-repeat; }
+
+.tooltip img { margin:0 0 10px 0; display:block; }
+
+.tooltip strong { float:left; margin:0 20px 0 0; width:120px; color:#14417f; font:bold 14px/17px 'trebuchet ms'; display:block; }
+
+.tooltip ul { display:block; float:left; width:220px; margin:0!important; padding:0!important; }
+
+.tooltip li { font:normal 12px/17px verdana; padding-bottom:3px!important; }
+
+
+.ptPage .tooltip { margin:-160px 0 0 -410px; }
+
+.ptPage .ptas .tooltip { margin:-160px 0 0 -160px!important; }
+
+.ptPage .staffers a, .mcCune { padding:3px 0 3px 25px!important; }
+
+.ptPage .tooltip .arrow { margin:105px 0 0 380px!important; background:url(/Files/images/arrow-right.png) no-repeat; }
+
+.ptPage .ptas .tooltip .arrow { margin:105px 0 0 130px!important; background:url(/Files/images/arrow-right.png) no-repeat; }
+
+/* New CSS - September 2016 */
+
+.toolbox { display:none; background:white; position:absolute; z-index:1000; width:380px; padding:20px 0 15px 20px; border:solid 1px #bebebe; margin:-160px 0 0 225px; }
+
+.toolbox strong { float:left; margin:0 20px 0 0; width:120px; color:#14417f; font:bold 14px/17px 'trebuchet ms'; display:block; }
+
+.toolbox ul { display:block; float:left; width:220px; margin:0!important; padding:0!important; }
+
+.toolbox li { font:normal 12px/17px verdana; padding-bottom:3px!important; }
+
+.toolbox .arrow { position:absolute; margin:105px 0 0 -39px; width:19px; height:37px; display:block; background:url(/Files/images/arrow.png) no-repeat; }
+
+
+/* PROCEDURES & SERVICES */
+
+body#proceduresPage .column1 { width: 250px; float: left; }
+
+body#proceduresPage .columnWrapper { margin-left:285px; margin:0; width:600px; float:left; overflow:auto; }
+
+body#proceduresPage .columnWrapper .column1 { width: 285px; float: left; }
+
+body#proceduresPage .columnWrapper .column2 { width: 285px; margin:0; float: left; padding-top:0; }
+
+#proceduresWrapper ul { margin:0; padding:0; list-style:none; }
+
+#proceduresWrapper ul li { width: 150px; float: left; position: relative; display: block; margin:0 12px; padding: 25px 0 0 0; }
+
+#proceduresWrapper ul li .title { color: #0c4ba3; font: normal 19px/24px "Trebuchet MS"; display:block; margin:15px 0 5px 0; }
+
+#proceduresWrapper ul li img { height:96px; width:150px; }
+
+#proceduresWrapper ul li p { color: #666; font: normal 14px/20px 'trebuchet ms'; display:block; margin:0; padding:0; }
+
+#proceduresWrapper ul li a:visited p { color:#666; }
+
+#proceduresWrapper ul li a:hover .image { filter: alpha(opacity=70); -moz-opacity: 0.7; opacity: 0.7; }
+
+#proceduresWrapper ul li a:hover { text-decoration:none!important; }
+
+#proceduresWrapper ul li a:hover .title { color: #a38a14; text-decoration:none!important; }
+
+#proceduresWrapper ul li a:hover p { color: #444; text-decoration:none!important; }
+
+#therapyLink { width:890px; text-align:center; font:normal 16px/22px 'trebuchet ms'; padding:10px 0; margin:15px/* 25px */ auto 0 auto; background:#eee8c8; }
+
+#therapyLink a { color:#333; }
+
+#therapyLink a:hover { color:#c00; text-decoration:none }
+
+#latestNewsContainer {width:890px;background-image: url('Files/images/newsBlock-bkgnd.png'); background-repeat: repeat-x; height: 119px; margin:0 auto;}
+
+#latestNews p {font:normal 20px/26px 'trebuchet ms';  text-align:left; float:left; padding-top:50px; width:700px;}
+
+#latestNewsLg p {font:normal 20px/26px 'trebuchet ms';  text-align:left; float:left; padding-top:50px; width:700px;}
+
+#latestNewsLg a {color:#14417f; text-decoration:underline; }
+
+#latestNewsContainerLg {width:890px;background-image: url('Files/images/newsBlock-bkgnd-lg.jpg'); background-repeat: repeat-x; background-position: center bottom; height: 159px; margin:0 auto; }
+
+p.snipecopy {font-size:16px;line-height:1.2;}
+
+
+
+#latestNews p span.blueBold { text-transform: uppercase; color:#0c4ba3; }
+
+#still {float:left; height:100%; width:135px;}
+
+#bill {float:left; height:100%; width:135px;}
+
+#india {float:left; height:100%; width:135px;}
+
+#grill {float:left; height:100%; width:135px; padding:15px 0 0 10px;}
+
+#a-list {float:left; height:100%; width:135px; padding:15px 0 0 10px;}
+
+#latestNews a { color:#0c4ba3;font-size:14px;float: right;text-decoration:underline;margin-right: 20px;}
+
+#latestNews a:hover { color:#c00;text-decoration: none; }
+
+#lg {float:left; height:100%; width:165px;}
+
+
+
+
+
+/* FACILITIES */
+
+#facilitiesWrapper ul { margin:0; padding:0; list-style:none; }
+
+#facilitiesWrapper ul li { width: 269px; float: left; position: relative; display: block; margin:0 27px 0 0; padding: 25px 0 0 0; }
+
+#facilitiesWrapper ul li.last { margin:0 0px 0 0; padding: 25px 0 0 0; }
+
+#facilitiesWrapper ul li .title { color: #0c4ba3; font: normal 19px/24px "Trebuchet MS"; display:block; margin:15px 0 5px 0; }
+
+#facilitiesWrapper ul li img { height:172px; width:269px; }
+
+#facilitiesWrapper ul li p { color: #666; font: normal 14px/20px 'trebuchet ms'; display:block; margin:0; padding:0; }
+
+#facilitiesWrapper ul li a:visited p { color:#666; }
+
+#facilitiesWrapper ul li a:hover .image { filter: alpha(opacity=70); -moz-opacity: 0.7; opacity: 0.7; }
+
+#facilitiesWrapper ul li a:hover { text-decoration:none!important; }
+
+#facilitiesWrapper ul li a:hover .title { color: #a38a14; text-decoration:none!important; }
+
+#facilitiesWrapper ul li a:hover p { color: #444; text-decoration:none!important; }
+
+/* -- */
+
+.sidebar .procedurePhoto { margin-bottom:15px; }
+
+.sidebar { font-size:12px; line-height:17px; }
+
+.sidebar strong { display:block; margin:10px 0 5px 0; font:bold 11px verdana; text-transform:uppercase }
+
+.sidebar #yourPhysicians { display:block; margin:40px 0 20px 0; }
+
+.sidebar #yourPhysicians img { margin:10px 5px 0 0; }
+
+.sidebar #yourPhysicians .greyLine { margin:15px 0 20px 0; margin:0; }
+
+.therapyPromo { margin-top:20px; }
+
+.therapyPromo:hover { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+
+/* NEW PATIENT */
+
+.appointmentButton { position:absolute; top:11px; right:6px; }
+
+.appointmentButton:hover { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+
+#content ul.morePadding { margin:15px 0 0 15px; padding:0; }
+
+#content ul.morePadding li { margin:0 0 10px 0; padding:0; }
+/Volumes/C$/Domainsites/abw/desktop.css
+/* PHYSICAL THERAPY */
+
+.physicalTherapy { margin:0 0 0 15px!important; padding:0; }
+
+.physicalTherapy li { margin:0 0 10px 0; }
+
+/* TESTIMONIALS */
+
+#testimonialsPage h3 { margin:10px 0 0 0; padding:0; }
+
+#testimonialsPage p { line-height:17px; }
+
+#videoContainer {max-width:900px; width:100%; margin:0 auto;}
+
+#videoContainer p { padding:0; margin:0 0 10px 0; font: normal 13px/20px verdana;}
+
+.columnHalf h3 { font:bold 16px/22px 'trebuchet ms'; color:#333; margin:0 0 6px 0; padding:0; }
+
+.columnHalf { width:45%; float:left; padding:2%;}
+
+.btn { background: #cf1919;  background-image: -webkit-linear-gradient(top, #cf1919, #7a0606);  background-image: -moz-linear-gradient(top, #cf1919, #7a0606);  background-image: -ms-linear-gradient(top, #cf1919, #7a0606);  background-image: -o-linear-gradient(top, #cf1919, #7a0606);  background-image: linear-gradient(to bottom, #cf1919, #7a0606);  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;  text-shadow: 1px 1px 3px #666666;  font-family: Arial;  color: #ffffff;  font-size: 18px;  padding: 10px 30px 10px 30px;  text-decoration: none; }
+
+.btn:hover { background: #3cb0fd;  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);  text-decoration: none;}
+
+a.btn { color: #fff;}
+
+#portal {display: block; margin: 30px 0 10px 0; text-align: center;}
+
+
+/*---------------------------------------------------------------------
+                             FOOTER
+-----------------------------------------------------------------------*/
+
+#footerWrapper { margin: 0 auto; height: 175px; background:url(Files/images/footer-repeat.jpg) center repeat-x; }
+
+#footerContent { width: 960px; position: relative; margin: 0 auto; }
+
+#footerContent #locations { display:none; position: relative; top: 30px; left: 30px; }
+
+#footerContent #locations .title { color: #a38a14; font: normal 17px Verdana; }
+
+#footerContent #locations p { color: #393939; font: normal 12px/18px Verdana; float: left; padding-right:25px; }
+
+#footerContent #locations p strong { color: #555; }
+
+#footerContent #tagLine { position: absolute; left: 30px; top: 30px; font:italic 13px/20px 'trebuchet ms'; color:#777; }
+
+#footerContent #tagLine strong { display:block; font:16px/20px 'trebuchet ms'; text-transform: uppercase; font-weight:normal; color:#3B71A9; }
+
+#footerContent #tagLine a { font:normal 11px/17px verdana; display:block; margin-top:10px; }
+
+#footerContent #copyright { position:absolute; top:145px; left:30px; font:normal 10px/17px verdana; color:#464646; }
+
+#footerContent #lpaf { position:absolute; top:10px; right:80px; }
+
+#footerContent #facebook { position:absolute; top:85px; left:30px; }
+
+#footerContent #facebook:hover { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+
+#footerContent .lpaf-mobile,
+#footerContent .facebook-mobile { display: none; }

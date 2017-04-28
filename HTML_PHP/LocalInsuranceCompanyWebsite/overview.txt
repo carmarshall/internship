@@ -1,0 +1,11 @@
+During my 2016 Summer internship, I had the opportunity to work with HTML/CSS and PHP when my company delegated content edits for an existing website to me.This repo contains a few snippets of the code I worked with and reformatted.
+
+My tasks and experience with this project included:
+                    Creating my own JIRA tasks based on the changes the client had emailed
+                    Eliminated redundancy
+                    Made content edits
+                    Fixed spelling errors
+                    Used SourceTree and Git to record and communicate the changes I made with my team
+                    Our company hosted this client's website on Rackspace
+                    Used MAMP as a local server
+                    Used FileZilla to transfer the files to the appropriate server  

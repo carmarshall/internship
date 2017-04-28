@@ -1,5 +1,6 @@
 During my 2016 Summer internship, I had the opportunity to work with HTML/CSS and the .NET Framework ASP when my company began hosting a local Medical Practice's multi-page website.This repo contains a few snippets of the code I worked with, reformatted, and wrote for the client.
-My tasks included:
+
+My tasks and experience with this project included:
                     Communicating with the client 
                     Creating my own JIRA tasks after client meetings
                     Reorganization of the information and layout of the pages
